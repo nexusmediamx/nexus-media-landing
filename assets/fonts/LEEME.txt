@@ -1,0 +1,8 @@
+Coloca aquí los archivos de las tipografías de marca con estos nombres exactos
+(basta con un formato por fuente; se recomienda .woff2 para web):
+
+  Modeka.woff2   (o Modeka.woff / Modeka.otf / Modeka.ttf)       -> Headlines / títulos
+  Ailerons.woff2 (o Ailerons.woff / Ailerons.otf / Ailerons.ttf) -> Cuerpo de texto
+
+La página las detecta sola (ver @font-face al inicio de css/styles.css).
+Mientras no estén, se usan Bricolage Grotesque (títulos) y Manrope (cuerpo).

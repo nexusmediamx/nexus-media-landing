@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexus Media | Agencia de Publicidad y Marketing</title>
+  <meta name="description" content="Nexus Media es una agencia de publicidad y marketing: publicidad, landing pages, manejo de redes sociales, creación de contenido, producción audiovisual con dron y redacción especializada.">
+  <meta name="theme-color" content="#0f0f0f">
+  <meta property="og:title" content="Nexus Media | Agencia de Publicidad y Marketing">
+  <meta property="og:description" content="Conectamos marcas con personas.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.replace('no-js', 'js');</script>
+  <script src="js/main.js" defer></script>
+</head>
+<body class="is-loading">
+
+  <!-- ============ PRELOADER ============ -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader__inner">
+      <div class="loader__word"><span>NEXUS</span><span class="text-lime">MEDIA</span></div>
+      <div class="loader__meta">
+        <span>Conectando ideas</span>
+        <span data-loader-count>000</span>
+      </div>
+      <div class="loader__bar"><i></i></div>
+    </div>
+  </div>
+
+  <div class="progress" aria-hidden="true"></div>
+  <div class="cursor" aria-hidden="true">
+    <svg class="infinity" viewBox="0 0 100 50">
+      <path class="infinity__base" pathLength="100" d="M50 25C62 10 88 8 90 25C88 42 62 40 50 25C38 10 12 8 10 25C12 42 38 40 50 25Z"/>
+      <path class="infinity__trail infinity__trail--lime" pathLength="100" d="M50 25C62 10 88 8 90 25C88 42 62 40 50 25C38 10 12 8 10 25C12 42 38 40 50 25Z"/>
+      <path class="infinity__trail infinity__trail--white" pathLength="100" d="M50 25C62 10 88 8 90 25C88 42 62 40 50 25C38 10 12 8 10 25C12 42 38 40 50 25Z"/>
+    </svg>
+    <div class="cursor__ring"></div>
+  </div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header">
+    <nav class="container nav" aria-label="Principal">
+      <a href="#inicio" class="logo" aria-label="Nexus Media, inicio">
+        <svg class="logo__mark" viewBox="0 0 40 40" aria-hidden="true">
+          <rect width="40" height="40" rx="12" fill="#3218fb"/>
+          <circle cx="16" cy="20" r="7" fill="none" stroke="#fff" stroke-width="3"/>
+          <circle cx="24" cy="20" r="7" fill="none" stroke="#b9f339" stroke-width="3"/>
+        </svg>
+        <span>NEXUS<em>MEDIA</em></span>
+      </a>
+
+      <ul class="nav__links">
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#dron">Producción aérea</a></li>
+        <li><a href="#proceso">Proceso</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+
+      <a href="#contacto" class="btn btn--lime btn--sm nav__cta" data-magnetic>Hablemos</a>
+
+      <button class="burger" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" inert>
+    <ul>
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#dron">Producción aérea</a></li>
+      <li><a href="#proceso">Proceso</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <div class="mobile-menu__foot">
+      <span>¿Tienes un proyecto?</span>
+      <a href="mailto:nexusmediamxrb26@gmail.com">nexusmediamxrb26@gmail.com</a>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="grid-lines"></div>
+        <div class="orb orb--blue" data-parallax="0.28"></div>
+        <div class="orb orb--lime" data-parallax="-0.18"></div>
+
+        <div class="bg-infinity bg-infinity--hero" data-infinity data-parallax="0.12"></div>
+      </div>
+
+      <div class="container hero__inner">
+        <p class="eyebrow hero-fade" style="--d:.15s">Agencia de publicidad &amp; marketing</p>
+
+        <h1 class="hero__title" aria-label="Conectamos marcas con personas">
+          <span class="line" aria-hidden="true"><span>Conectamos</span></span>
+          <span class="line" aria-hidden="true"><span><span class="outline">marcas</span> con</span></span>
+          <span class="line" aria-hidden="true"><span>
+            <span class="rotator" data-rotator>
+              <span class="is-active">personas<i>.</i></span>
+              <span>audiencias<i>.</i></span>
+              <span>resultados<i>.</i></span>
+              <span>emociones<i>.</i></span>
+            </span>
+          </span></span>
+        </h1>
+
+        <div class="hero__bottom">
+          <div class="hero__copy">
+            <p class="hero__lead hero-fade" style="--d:.55s">
+              Unimos estrategia, creatividad y producción para que tu marca se vea, se escuche y, sobre todo, <strong>venda</strong>.
+            </p>
+            <div class="hero__actions hero-fade" style="--d:.7s">
+              <a href="#contacto" class="btn btn--lime" data-magnetic>
+                Empecemos un proyecto
+                <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+              </a>
+              <a href="#servicios" class="btn btn--ghost">Ver servicios</a>
+            </div>
+          </div>
+
+          <div class="hero-fade hero__badge-wrap" style="--d:.85s">
+          <a href="#nosotros" class="hero__badge" aria-label="Desplázate para conocernos" data-magnetic="0.25">
+            <svg class="hero__badge-text" viewBox="0 0 200 200" aria-hidden="true">
+              <defs><path id="badgeCircle" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs>
+              <text><textPath href="#badgeCircle" textLength="486" lengthAdjust="spacing">NEXUS MEDIA • AGENCIA CREATIVA • MARKETING • </textPath></text>
+            </svg>
+            <span class="hero__badge-core">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+            </span>
+          </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MARQUEES ============ -->
+    <div class="marquees" aria-hidden="true">
+      <div class="marquee marquee--lime">
+        <div class="marquee__track">
+          <span>Publicidad</span><b>✦</b><span>Landing Pages</span><b>✦</b><span>Redes Sociales</span><b>✦</b><span>Contenido</span><b>✦</b><span>Audiovisual</span><b>✦</b><span>Dron</span><b>✦</b><span>Redacción</span><b>✦</b><span>Animación 3D</span><b>✦</b>
+        </div>
+        <div class="marquee__track">
+          <span>Publicidad</span><b>✦</b><span>Landing Pages</span><b>✦</b><span>Redes Sociales</span><b>✦</b><span>Contenido</span><b>✦</b><span>Audiovisual</span><b>✦</b><span>Dron</span><b>✦</b><span>Redacción</span><b>✦</b><span>Animación 3D</span><b>✦</b>
+        </div>
+      </div>
+      <div class="marquee marquee--blue">
+        <div class="marquee__track">
+          <span>Estrategia</span><b>●</b><span>Creatividad</span><b>●</b><span>Performance</span><b>●</b><span>Branding</span><b>●</b><span>Storytelling</span><b>●</b><span>Conversión</span><b>●</b>
+        </div>
+        <div class="marquee__track">
+          <span>Estrategia</span><b>●</b><span>Creatividad</span><b>●</b><span>Performance</span><b>●</b><span>Branding</span><b>●</b><span>Storytelling</span><b>●</b><span>Conversión</span><b>●</b>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ NOSOTROS ============ -->
+    <section class="section about section--light" id="nosotros" data-expand>
+      <div class="container">
+        <span class="tag" data-reveal="up">(01) — Nosotros</span>
+
+        <p class="about__text" data-words>
+          Somos <em>Nexus Media</em>, el punto de encuentro entre la <em>estrategia</em> y la <em>creatividad.</em>
+          Creamos campañas, contenidos y experiencias digitales que no solo se ven bien: generan conversación,
+          confianza y <em>resultados reales.</em>
+        </p>
+
+        <div class="pillars" data-stagger>
+          <article class="pillar" data-reveal="up">
+            <span class="pillar__num">01</span>
+            <h3>Estrategia</h3>
+            <p>Investigamos tu mercado y tu audiencia para decidir con datos, no con suposiciones.</p>
+          </article>
+          <article class="pillar" data-reveal="up">
+            <span class="pillar__num">02</span>
+            <h3>Creatividad</h3>
+            <p>Ideas con personalidad que hacen que tu marca destaque en un feed saturado.</p>
+          </article>
+          <article class="pillar" data-reveal="up">
+            <span class="pillar__num">03</span>
+            <h3>Resultados</h3>
+            <p>Medimos, optimizamos y reportamos. Cada acción tiene un objetivo claro.</p>
+          </article>
+        </div>
+
+        <div class="stats" data-stagger>
+          <div class="stat" data-reveal="up">
+            <strong><span data-count="8">0</span></strong>
+            <span>Servicios integrales en un solo equipo</span>
+          </div>
+          <div class="stat" data-reveal="up">
+            <strong><span data-count="360">0</span>°</strong>
+            <span>Marketing de la idea a la pantalla</span>
+          </div>
+          <div class="stat" data-reveal="up">
+            <strong><span data-count="100">0</span>%</strong>
+            <span>Estrategias a la medida de tu marca</span>
+          </div>
+          <div class="stat" data-reveal="up">
+            <strong><span data-count="4">0</span>K</strong>
+            <span>Producción aérea con dron</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICIOS ============ -->
+    <section class="section services" id="servicios">
+      <div class="bg-infinity bg-infinity--left" data-infinity style="top: 35%"></div>
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="tag" data-reveal="up">(02) — Servicios</span>
+            <h2 class="h2" data-split>Soluciones que <span class="text-lime">conectan</span> y convierten.</h2>
+          </div>
+          <div data-reveal="up" style="--d:.2s">
+            <p>Un equipo integral que acompaña a tu marca en cada etapa: desde la idea hasta la pantalla de tu cliente.</p>
+          </div>
+        </div>
+
+        <div class="services__grid" data-stagger>
+          <div data-reveal="up">
+            <article class="card">
+              <div class="card__top">
+                <span class="card__icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11v2a1 1 0 0 0 1 1h2l5 4V6L6 10H4a1 1 0 0 0-1 1z"/><path d="M15 9a4 4 0 0 1 0 6"/><path d="M18 6a8 8 0 0 1 0 12"/></svg>
+                </span>
+                <span class="card__arrow"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+              </div>
+              <h3>Publicidad</h3>
+              <p>Campañas digitales y tradicionales con estrategia, segmentación precisa y optimización continua para que cada inversión rinda al máximo.</p>
+              <ul class="card__tags"><li>Meta Ads</li><li>Google Ads</li><li>TikTok Ads</li></ul>
+              <span class="card__num" aria-hidden="true">01</span>
+            </article>
+          </div>
+
+          <div data-reveal="up">
+            <article class="card">
+              <div class="card__top">
+                <span class="card__icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18"/><path d="M7 13h6M7 16h10"/></svg>
+                </span>
+                <span class="card__arrow"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+              </div>
+              <h3>Landing Pages</h3>
+              <p>Páginas diseñadas para convertir: rápidas, responsive y optimizadas para captar leads y ventas desde el primer clic.</p>
+              <ul class="card__tags"><li>UX/UI</li><li>Conversión</li><li>SEO</li></ul>
+              <span class="card__num" aria-hidden="true">02</span>
+            </article>
+          </div>
+
+          <div data-reveal="up">
+            <article class="card">
+              <div class="card__top">
+                <span class="card__icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/><path d="M12 15.2s-3-1.8-3-3.8a1.6 1.6 0 0 1 3-.8 1.6 1.6 0 0 1 3 .8c0 2-3 3.8-3 3.8z"/></svg>
+                </span>
+                <span class="card__arrow"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+              </div>
+              <h3>Manejo de Redes Sociales</h3>
+              <p>Planificación, publicación, gestión de comunidad y reportes. Tu marca activa, coherente y cerca de su audiencia.</p>
+              <ul class="card__tags"><li>Community</li><li>Calendario</li><li>Métricas</li></ul>
+              <span class="card__num" aria-hidden="true">03</span>
+            </article>
+          </div>
+
+          <div data-reveal="up">
+            <article class="card">
+              <div class="card__top">
+                <span class="card__icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="9" cy="9" r="2"/><path d="m21 15-5-5L5 21"/></svg>
+                </span>
+                <span class="card__arrow"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+              </div>
+              <h3>Creación de Contenido</h3>
+              <p>Piezas gráficas, reels, carruseles e historias pensadas para detener el scroll y conectar con tu audiencia.</p>
+              <ul class="card__tags"><li>Reels</li><li>Diseño</li><li>Fotografía</li></ul>
+              <span class="card__num" aria-hidden="true">04</span>
+            </article>
+          </div>
+
+          <div data-reveal="up">
+            <article class="card">
+              <div class="card__top">
+                <span class="card__icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="6" width="14" height="12" rx="2"/><path d="m16 10 6-3v10l-6-3z"/></svg>
+                </span>
+                <span class="card__arrow"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+              </div>
+              <h3>Producción Audiovisual</h3>
+              <p>Video comercial, fotografía y edición profesional para contar la historia de tu marca con calidad de cine.</p>
+              <ul class="card__tags"><li>Spots</li><li>Fotografía</li><li>Edición</li></ul>
+              <span class="card__num" aria-hidden="true">05</span>
+            </article>
+          </div>
+
+          <div data-reveal="up">
+            <article class="card">
+              <div class="card__top">
+                <span class="card__icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg>
+                </span>
+                <span class="card__arrow"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+              </div>
+              <h3>Redacción Especializada</h3>
+              <p>Textos persuasivos y técnicos: copywriting, artículos, guiones y contenido SEO con la voz de tu marca.</p>
+              <ul class="card__tags"><li>Copywriting</li><li>Blogs</li><li>Guiones</li></ul>
+              <span class="card__num" aria-hidden="true">06</span>
+            </article>
+          </div>
+
+          <div data-reveal="up">
+            <article class="card">
+              <div class="card__top">
+                <span class="card__icon">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5 3.5 7.2v9.6l8.5 4.7 8.5-4.7V7.2z"/><path d="m3.5 7.2 8.5 4.7 8.5-4.7M12 11.9v9.6"/></svg>
+                </span>
+                <span class="card__arrow"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+              </div>
+              <h3>Animación y Diseño 3D</h3>
+              <p>Modelado, renders y animaciones 3D para productos, logotipos y espacios. Piezas con volumen y movimiento que destacan en redes y pantallas.</p>
+              <ul class="card__tags"><li>Modelado 3D</li><li>Motion graphics</li><li>Renders</li></ul>
+              <span class="card__num" aria-hidden="true">07</span>
+            </article>
+          </div>
+
+          <div class="services__wide" data-reveal="up">
+            <article class="card card--featured card--wide">
+              <span class="card__icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9.5" y="9.5" width="5" height="5" rx="1"/><path d="M9.5 9.5 7.3 7.3M14.5 9.5l2.2-2.2M9.5 14.5l-2.2 2.2M14.5 14.5l2.2 2.2"/><circle cx="5.5" cy="5.5" r="2.5"/><circle cx="18.5" cy="5.5" r="2.5"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+              </span>
+              <div class="card__body">
+                <h3>Producción Aérea con Dron</h3>
+                <p>Tomas aéreas para spots, eventos, inmobiliarias, turismo y redes sociales. Una perspectiva desde el cielo que convierte a tu marca en protagonista.</p>
+                <ul class="card__tags"><li>Video 4K</li><li>Fotografía aérea</li><li>Recorridos</li><li>Eventos</li></ul>
+              </div>
+              <a href="#dron" class="btn btn--lime card__cta" data-magnetic="0.2">
+                Ver producción aérea
+                <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+              </a>
+              <span class="card__num" aria-hidden="true">08</span>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRODUCCIÓN AÉREA ============ -->
+    <section class="section drone" id="dron" data-expand>
+      <div class="bg-infinity bg-infinity--right" data-infinity></div>
+      <div class="container drone__inner">
+        <div class="drone__content">
+          <span class="tag" data-reveal="up">(03) — Producción aérea</span>
+          <h2 class="h2" data-split>Tu marca, <span class="text-lime">desde otra perspectiva.</span></h2>
+          <p class="drone__lead" data-reveal="up" style="--d:.15s">
+            Nuestra producción audiovisual incluye tomas aéreas con dron para spots, eventos, inmobiliarias,
+            turismo y contenido para redes. Imágenes que impactan desde el primer segundo.
+          </p>
+          <ul class="checklist" data-stagger>
+            <li data-reveal="left"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>Video y fotografía aérea en alta resolución</li>
+            <li data-reveal="left"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>Planificación de tomas, guion y storyboard</li>
+            <li data-reveal="left"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>Edición, colorización y musicalización</li>
+            <li data-reveal="left"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>Formatos listos para redes, web y TV</li>
+          </ul>
+          <div data-reveal="up">
+            <a href="#contacto" class="btn btn--lime" data-magnetic>
+              Cotiza tu producción
+              <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="drone__visual" data-reveal="scale">
+          <div class="viewfinder">
+            <svg class="viewfinder__scene" data-depth="10" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+              <defs>
+                <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#0f0f0f"/>
+                  <stop offset=".6" stop-color="#1c0f9e"/>
+                  <stop offset="1" stop-color="#3218fb"/>
+                </linearGradient>
+              </defs>
+              <rect x="-40" y="-40" width="480" height="380" fill="url(#sky)"/>
+              <g fill="#fff">
+                <circle cx="40" cy="40" r="1.2" opacity=".7"/><circle cx="120" cy="24" r="1" opacity=".5"/>
+                <circle cx="210" cy="56" r="1.3" opacity=".6"/><circle cx="330" cy="30" r="1" opacity=".6"/>
+                <circle cx="370" cy="80" r="1.2" opacity=".4"/><circle cx="80" cy="95" r="1" opacity=".4"/>
+              </g>
+              <circle cx="300" cy="205" r="38" fill="#b9f339"/>
+              <path d="M-40 232 L40 190 L100 222 L170 168 L240 224 L300 192 L360 220 L440 186 V340 H-40Z" fill="#1a0c8f"/>
+              <path d="M-40 262 L60 226 L140 256 L220 218 L290 258 L350 236 L440 252 V340 H-40Z" fill="#0f0f0f"/>
+            </svg>
+
+            <svg class="drone-svg" data-depth="-26" viewBox="0 0 400 240" aria-hidden="true">
+              <g class="drone-float">
+                <g stroke="rgba(255,255,255,.45)" stroke-width="7" stroke-linecap="round">
+                  <path d="M180 116 L110 94"/><path d="M220 116 L290 94"/>
+                </g>
+                <rect x="102" y="80" width="16" height="14" rx="3" fill="rgba(255,255,255,.55)"/>
+                <rect x="282" y="80" width="16" height="14" rx="3" fill="rgba(255,255,255,.55)"/>
+                <ellipse class="rotor" cx="110" cy="78" rx="42" ry="3.5" fill="rgba(185,243,57,.55)"/>
+                <ellipse class="rotor rotor--rev" cx="290" cy="78" rx="42" ry="3.5" fill="rgba(185,243,57,.55)"/>
+
+                <g stroke="#fff" stroke-width="9" stroke-linecap="round">
+                  <path d="M172 124 L72 108"/><path d="M228 124 L328 108"/>
+                </g>
+                <rect x="62" y="92" width="20" height="18" rx="4" fill="#fff"/>
+                <rect x="318" y="92" width="20" height="18" rx="4" fill="#fff"/>
+                <ellipse class="rotor" cx="72" cy="89" rx="54" ry="4.5" fill="#b9f339"/>
+                <ellipse class="rotor rotor--rev" cx="328" cy="89" rx="54" ry="4.5" fill="#b9f339"/>
+                <rect x="69" y="85" width="6" height="8" rx="1" fill="#0f0f0f"/>
+                <rect x="325" y="85" width="6" height="8" rx="1" fill="#0f0f0f"/>
+
+                <g stroke="#fff" stroke-width="5" stroke-linecap="round" fill="none">
+                  <path d="M174 140 L162 178"/><path d="M226 140 L238 178"/>
+                  <path d="M148 178 H176"/><path d="M224 178 H252"/>
+                </g>
+
+                <rect x="150" y="104" width="100" height="40" rx="18" fill="#fff"/>
+                <rect x="166" y="112" width="68" height="10" rx="5" fill="#3218fb"/>
+                <circle class="led" cx="162" cy="132" r="3" fill="#b9f339"/>
+                <circle class="led led--alt" cx="238" cy="132" r="3" fill="#b9f339"/>
+
+                <rect x="192" y="142" width="16" height="8" fill="#fff"/>
+                <circle cx="200" cy="160" r="15" fill="#0f0f0f" stroke="#fff" stroke-width="3"/>
+                <circle cx="200" cy="160" r="7" fill="#3218fb" stroke="#b9f339" stroke-width="2"/>
+                <circle cx="197" cy="157" r="2" fill="#fff" opacity=".85"/>
+              </g>
+            </svg>
+
+            <div class="hud" aria-hidden="true">
+              <i class="hud__corner hud__corner--tl"></i><i class="hud__corner hud__corner--tr"></i>
+              <i class="hud__corner hud__corner--bl"></i><i class="hud__corner hud__corner--br"></i>
+              <div class="hud__row hud__row--top">
+                <span class="hud__rec"><i></i>REC <b data-timer>00:00:00</b></span>
+                <span>4K · 60 FPS</span>
+              </div>
+              <div class="hud__cross"></div>
+              <div class="hud__row hud__row--bottom">
+                <span>ALT <b data-alt>120</b> m</span>
+                <span>ISO 100</span>
+                <span>BAT 87%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROCESO ============ -->
+    <section class="section process" id="proceso">
+      <div class="bg-infinity bg-infinity--left" data-infinity></div>
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="tag" data-reveal="up">(04) — Proceso</span>
+            <h2 class="h2" data-split>Un método claro, <span class="text-lime">resultados medibles.</span></h2>
+          </div>
+          <div data-reveal="up" style="--d:.2s">
+            <p>Trabajamos por etapas para que siempre sepas qué estamos haciendo, por qué y qué resultados esperar.</p>
+          </div>
+        </div>
+
+        <ol class="process__steps">
+          <li class="process__line" aria-hidden="true"></li>
+          <li class="step" data-reveal="up">
+            <span class="step__dot">01</span>
+            <h3>Descubrimos</h3>
+            <p>Conocemos tu marca, tus objetivos y a tu cliente ideal.</p>
+          </li>
+          <li class="step" data-reveal="up" style="--d:.1s">
+            <span class="step__dot">02</span>
+            <h3>Planeamos</h3>
+            <p>Definimos estrategia, canales, mensajes y calendario.</p>
+          </li>
+          <li class="step" data-reveal="up" style="--d:.2s">
+            <span class="step__dot">03</span>
+            <h3>Creamos</h3>
+            <p>Producimos piezas, campañas, videos y landing pages.</p>
+          </li>
+          <li class="step" data-reveal="up" style="--d:.3s">
+            <span class="step__dot">04</span>
+            <h3>Medimos</h3>
+            <p>Analizamos resultados y optimizamos para crecer más.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="cta" data-expand>
+      <div class="cta__rows" aria-hidden="true">
+        <div class="cta__row" data-scroll-x data-from="-8" data-to="-38">
+          <span>¿Listo para crecer?</span><b>✦</b><span>¿Listo para crecer?</span><b>✦</b><span>¿Listo para crecer?</span><b>✦</b>
+        </div>
+        <div class="cta__row cta__row--outline" data-scroll-x data-from="-42" data-to="-12">
+          <span>Hablemos hoy</span><b>✦</b><span>Hablemos hoy</span><b>✦</b><span>Hablemos hoy</span><b>✦</b><span>Hablemos hoy</span><b>✦</b>
+        </div>
+      </div>
+      <div class="container cta__inner">
+        <p data-reveal="up">Cuéntanos tu idea y te enviaremos una propuesta a la medida de tu marca.</p>
+        <div data-reveal="scale">
+          <a href="#contacto" class="btn-circle" data-magnetic="0.4">
+            <span>Empezar</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACTO ============ -->
+    <section class="section contact" id="contacto">
+      <div class="bg-infinity bg-infinity--left" data-infinity style="top: 40%"></div>
+      <div class="container contact__inner">
+        <div class="contact__info">
+          <span class="tag" data-reveal="up">(05) — Contacto</span>
+          <h2 class="h2" data-split>Hagamos algo <span class="text-lime">grande</span> juntos.</h2>
+          <p class="contact__lead" data-reveal="up" style="--d:.15s">Déjanos tus datos y te responderemos muy pronto con ideas para tu marca.</p>
+
+          <ul class="contact__list" data-stagger>
+            <li data-reveal="up">
+              <span>Email</span>
+              <a href="mailto:nexusmediamxrb26@gmail.com">nexusmediamxrb26@gmail.com</a>
+            </li>
+            <li data-reveal="up">
+              <span>WhatsApp</span>
+              <a href="https://wa.me/525536432786" target="_blank" rel="noopener">55 3643 2786</a>
+            </li>
+            <li data-reveal="up">
+              <span>Horario</span>
+              <p>Lunes a viernes · 9:00 – 18:00</p>
+            </li>
+          </ul>
+
+          <div class="socials" data-reveal="up">
+            <a href="https://www.instagram.com/nexusmediamx26/" class="social" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://www.tiktok.com/@nexusmediamx" class="social" target="_blank" rel="noopener">TikTok</a>
+            <a href="https://www.facebook.com/profile.php?id=61594203544456" class="social" target="_blank" rel="noopener">Facebook</a>
+            <a href="#" class="social">YouTube</a>
+          </div>
+        </div>
+
+        <div class="contact__form-wrap" data-reveal="right">
+          <form class="form" id="contact-form" action="https://formsubmit.co/nexusmediamxrb26@gmail.com" method="POST" novalidate>
+            <!-- Ajustes de FormSubmit: entrega el mensaje en nexusmediamxrb26@gmail.com -->
+            <input type="hidden" name="_subject" value="Nuevo mensaje desde la web de Nexus Media">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
+            <!-- Trampa anti-spam: los bots la llenan, las personas no la ven -->
+            <input type="text" name="_honey" class="form__honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+            <div class="form__fields">
+              <div class="form__grid">
+                <div class="field">
+                  <input type="text" id="f-name" name="nombre" placeholder=" " autocomplete="name" required>
+                  <label for="f-name">Nombre *</label>                  <small class="field__error">Escribe tu nombre.</small>
+                </div>
+                <div class="field">
+                  <input type="email" id="f-email" name="email" placeholder=" " autocomplete="email" required>
+                  <label for="f-email">Email *</label>                  <small class="field__error">Escribe un email válido.</small>
+                </div>
+                <div class="field">
+                  <input type="tel" id="f-phone" name="telefono" placeholder=" " autocomplete="tel">
+                  <label for="f-phone">Teléfono / WhatsApp</label>                </div>
+                <div class="field">
+                  <input type="text" id="f-company" name="empresa" placeholder=" " autocomplete="organization">
+                  <label for="f-company">Empresa o marca</label>                </div>
+              </div>
+
+              <fieldset class="chips">
+                <legend>¿Qué necesitas?</legend>
+                <label class="chip"><input type="checkbox" name="servicios" value="Publicidad"><span>Publicidad</span></label>
+                <label class="chip"><input type="checkbox" name="servicios" value="Landing Pages"><span>Landing Pages</span></label>
+                <label class="chip"><input type="checkbox" name="servicios" value="Redes Sociales"><span>Redes Sociales</span></label>
+                <label class="chip"><input type="checkbox" name="servicios" value="Creación de Contenido"><span>Contenido</span></label>
+                <label class="chip"><input type="checkbox" name="servicios" value="Producción Audiovisual"><span>Audiovisual</span></label>
+                <label class="chip"><input type="checkbox" name="servicios" value="Redacción Especializada"><span>Redacción</span></label>
+                <label class="chip"><input type="checkbox" name="servicios" value="Animación y Diseño 3D"><span>Animación 3D</span></label>
+                <label class="chip"><input type="checkbox" name="servicios" value="Producción Aérea con Dron"><span>Dron</span></label>
+              </fieldset>
+
+              <div class="field">
+                <textarea id="f-message" name="mensaje" rows="4" placeholder=" " required></textarea>
+                <label for="f-message">Cuéntanos sobre tu proyecto *</label>                <small class="field__error">Cuéntanos un poco sobre tu proyecto.</small>
+              </div>
+
+              <button type="submit" class="btn btn--lime btn--block" data-magnetic="0.15">
+                <span class="btn__label">Enviar mensaje</span>
+                <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+              </button>
+
+              <p class="form__alert" role="alert" hidden>
+                No pudimos enviar tu mensaje. Inténtalo de nuevo o escríbenos directo a
+                <a href="mailto:nexusmediamxrb26@gmail.com" data-form-mailto>nexusmediamxrb26@gmail.com</a>
+                o por WhatsApp al <a href="https://wa.me/525536432786" target="_blank" rel="noopener">55 3643 2786</a>.
+              </p>
+            </div>
+
+            <div class="form__success" role="status" aria-live="polite">
+              <svg viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="24"/><path d="m15 27 7 7 15-16"/></svg>
+              <h3>¡Mensaje enviado!</h3>
+              <p>Gracias por escribirnos. Muy pronto nos pondremos en contacto contigo.</p>
+              <button type="button" class="btn btn--ghost btn--sm" data-form-reset>Enviar otro mensaje</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="bg-infinity bg-infinity--right" data-infinity style="top: 40%"></div>
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__about" data-reveal="up">
+          <a href="#inicio" class="logo" aria-label="Nexus Media, inicio">
+            <svg class="logo__mark" viewBox="0 0 40 40" aria-hidden="true">
+              <rect width="40" height="40" rx="12" fill="#3218fb"/>
+              <circle cx="16" cy="20" r="7" fill="none" stroke="#fff" stroke-width="3"/>
+              <circle cx="24" cy="20" r="7" fill="none" stroke="#b9f339" stroke-width="3"/>
+            </svg>
+            <span>NEXUS<em>MEDIA</em></span>
+          </a>
+          <p>Agencia de publicidad y marketing. Conectamos marcas con personas.</p>
+        </div>
+
+        <div class="footer__col" data-reveal="up" style="--d:.1s">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#dron">Producción aérea</a></li>
+            <li><a href="#proceso">Proceso</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col" data-reveal="up" style="--d:.2s">
+          <h4>Servicios</h4>
+          <ul>
+            <li><a href="#servicios">Publicidad</a></li>
+            <li><a href="#servicios">Landing Pages</a></li>
+            <li><a href="#servicios">Redes Sociales</a></li>
+            <li><a href="#servicios">Creación de Contenido</a></li>
+            <li><a href="#servicios">Producción Audiovisual</a></li>
+            <li><a href="#servicios">Redacción Especializada</a></li>
+            <li><a href="#servicios">Animación y Diseño 3D</a></li>
+            <li><a href="#dron">Producción Aérea con Dron</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col" data-reveal="up" style="--d:.3s">
+          <h4>Síguenos</h4>
+          <ul>
+            <li><a href="https://www.instagram.com/nexusmediamx26/" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://www.tiktok.com/@nexusmediamx" target="_blank" rel="noopener">TikTok</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=61594203544456" target="_blank" rel="noopener">Facebook</a></li>
+            <li><a href="#">YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__brand" data-letters aria-hidden="true">NEXUS <em>MEDIA</em></div>
+
+      <div class="footer__bottom">
+        <p>© <span data-year>2026</span> Nexus Media. Todos los derechos reservados.</p>
+        <a href="#inicio" class="to-top">
+          Volver arriba
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

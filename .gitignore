@@ -1,0 +1,19 @@
+# Archivos del sistema operativo
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*~
+
+# Configuración local de herramientas
+.claude/
+.netlify/
+
+# Paquetes temporales de despliegue
+*.zip
