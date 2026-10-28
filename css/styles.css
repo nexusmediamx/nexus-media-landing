@@ -942,9 +942,24 @@ ul, ol { list-style: none; }
 
 .card--featured { border-color: rgba(185, 243, 57, 0.35); }
 
-/* Tarjeta ancha (Producción Aérea con Dron): en escritorio ocupa dos columnas,
-   junto a la tarjeta 07, para completar la última fila de la cuadrícula */
+/* Tarjetas destacadas: en escritorio, Desarrollo de Apps ocupa dos columnas
+   junto a la tarjeta 07 y Producción Aérea cierra la cuadrícula a todo lo ancho */
 .services__grid > .services__wide { grid-column: span 2; }
+.services__grid > .services__full { grid-column: 1 / -1; }
+
+.card__price {
+  display: inline-block;
+  margin-bottom: 0.9rem;
+  padding: 0.3rem 0.85rem;
+  border: 1px solid var(--lime);
+  border-radius: 999px;
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--lime);
+}
 .card--wide {
   display: grid;
   grid-template-columns: auto 1fr;
